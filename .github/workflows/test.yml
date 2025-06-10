@@ -47,23 +47,17 @@ jobs:
           bundle update
           bundle install --jobs 4 --retry 3
 
-      - name: Set up Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v3
-        with:
-          node-version: ${{ matrix.node-version }}
-          cache: 'pnpm'
-
       - uses: pnpm/action-setup@v4
         name: Install pnpm
         with:
           version: 10
           run_install: false
 
-      - name: Set up cache key for node_modules
-        uses: actions/cache@v3
+      - name: Set up Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
         with:
-          path: ${{ steps.yarn-cache.outputs.dir }}
-          key: ${{ runner.os }}-yarn-${{ hashFiles('**/pnpm-lock.yaml') }}
+          node-version: ${{ matrix.node-version }}
+          cache: 'pnpm'
 
       - name: Install dependencies
         run: pnpm install
