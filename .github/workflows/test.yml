@@ -51,19 +51,22 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node-version }}
+          cache: 'pnpm'
 
-      - name: Get Yarn cache dir
-        id: yarn-cache
-        run: echo "::set-output name=dir::$(yarn cache dir)"
+      - uses: pnpm/action-setup@v4
+        name: Install pnpm
+        with:
+          version: 10
+          run_install: false
 
       - name: Set up cache key for node_modules
         uses: actions/cache@v3
         with:
           path: ${{ steps.yarn-cache.outputs.dir }}
-          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
+          key: ${{ runner.os }}-yarn-${{ hashFiles('**/pnpm-lock.yaml') }}
 
-      - name: Install Node.js dependencies
-        run: yarn --frozen-lockfile
+      - name: Install dependencies
+        run: pnpm install
 
       - name: Build AMSF
         run: grunt build
@@ -103,8 +106,8 @@ jobs:
         uses: docker/metadata-action@v4
         with:
           images: |
-            sparanoid/almace-scaffolding
-            ghcr.io/sparanoid/almace-scaffolding
+#            sparanoid/almace-scaffolding TODO replace with lndrysrvcs
+            ghcr.io/lndrysrvcs/almace-scaffolding
           tags: |
             type=edge
             type=schedule

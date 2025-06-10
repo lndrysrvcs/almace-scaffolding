@@ -34,7 +34,7 @@ jobs:
           key: v1-dependencies-{{ checksum "Gemfile.lock" }}
       - restore_cache:
           keys:
-            - v1-dependencies-{{ checksum "yarn.lock" }}
+            - v1-dependencies-{{ checksum "pnpm-lock.yaml" }}
             - v1-dependencies-
       - run:
           name: install node dependencies
@@ -42,7 +42,7 @@ jobs:
       - save_cache:
           paths:
             - ./node_modules
-          key: v1-dependencies-{{ checksum "yarn.lock" }}
+          key: v1-dependencies-{{ checksum "pnpm-lock.yaml" }}
       - run:
           name: generate static files
           command: grunt build
