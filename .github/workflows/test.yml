@@ -101,12 +101,12 @@ jobs:
           username: ${{ github.repository_owner }}
           password: ${{ secrets.GITHUB_TOKEN }}
 
+      #           sparanoid/almace-scaffolding TODO replace with lndrysrvcs
       - name: Docker meta
         id: meta
         uses: docker/metadata-action@v4
         with:
           images: |
-#            sparanoid/almace-scaffolding TODO replace with lndrysrvcs
             ghcr.io/lndrysrvcs/almace-scaffolding
           tags: |
             type=edge
