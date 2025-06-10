@@ -2,14 +2,13 @@ source "https://rubygems.org"
 
 gem "jekyll", "4.3.2"
 
-group :development do
-  gem "jekyll-last-modified-at"
-  gem "stringex"
-  gem "webrick"
+gem "jekyll-last-modified-at"
+gem "stringex"
+gem "webrick"
 
-  # TODO: https://github.com/sass/dart-sass-embedded/issues/106
-  gem "jekyll-sass-converter", "< 3.0"
-end
+# TODO: https://github.com/sass/dart-sass-embedded/issues/106
+gem "jekyll-sass-converter", "< 3.0"
+
 
 group :jekyll_plugins do
   gem "match_regex"
