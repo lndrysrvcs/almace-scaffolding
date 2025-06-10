@@ -5,6 +5,8 @@ gem "jekyll", "4.3.2"
 gem "jekyll-last-modified-at"
 gem "stringex"
 gem "webrick"
+gem "csv"
+gem "logger"
 
 # TODO: https://github.com/sass/dart-sass-embedded/issues/106
 gem "jekyll-sass-converter", "< 3.0"
