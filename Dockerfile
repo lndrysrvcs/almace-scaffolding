@@ -1,20 +1,15 @@
-FROM ruby:3-alpine
-LABEL maintainer "Tunghsiao Liu <t@sparanoid.com>"
+FROM node:current-bookworm
 
-RUN apk update -f \
-    && apk add --no-cache -f \
-    bash \
-    build-base \
-    cmake \
-    curl \
-    gcc \
-    git \
-    nodejs \
-    npm \
-    yarn \
-    && rm -rf /var/cache/apk/*
+ENV PNPM_HOME="/pnpm"
+ENV PATH="$PNPM_HOME:$PATH"
 
-RUN npm install -g grunt-cli
+RUN apt update && apt install -y ruby ruby-dev
+
+RUN wget -qO- https://get.pnpm.io/install.sh | ENV="$HOME/.bashrc" SHELL="$(which bash)" bash -
+
+RUN pnpm install -g grunt-cli
+
+RUN gem install bundler
 
 COPY . /app
 
@@ -22,7 +17,7 @@ VOLUME /app
 
 WORKDIR /app
 
-RUN bundle install && yarn install
+RUN bundle install && pnpm install
 
 EXPOSE 4321
 
