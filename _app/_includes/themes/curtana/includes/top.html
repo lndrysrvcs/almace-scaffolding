@@ -39,6 +39,9 @@
 <!-- Canonical links, avoid duplicate content problems -->
 <link rel="canonical" href="{{ amsf_page_url }}">
 
+<!-- KaTeX CSS file -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.css" integrity="sha384-o3WH+1yEhq+grOgz1BVYTZPyTlMXrDxnjN1By9/ba94JqJhva6wFm2Hb+URQX53v" crossorigin="anonymous">
+
 <!-- DNS prefetching for static files -->
 {% if page.permalink == "/" %}<link rel="dns-prefetch" href="{{ site.file }}">{% endif %}
 
