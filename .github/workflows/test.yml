@@ -74,6 +74,8 @@ jobs:
         uses: treosh/lighthouse-ci-action@v12
         with:
           configPath: './lighthouserc.json'
+          uploadArtifacts: true
+          temporaryPublicStorage: true
 
       - name: Set up QEMU
         uses: docker/setup-qemu-action@v2
