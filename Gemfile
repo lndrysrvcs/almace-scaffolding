@@ -8,6 +8,7 @@ gem "webrick"
 gem "csv"
 gem "logger"
 gem "base64"
+gem "bigdecimal"
 
 # TODO: https://github.com/sass/dart-sass-embedded/issues/106
 gem "jekyll-sass-converter", "< 3.0"
