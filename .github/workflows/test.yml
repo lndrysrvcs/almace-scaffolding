@@ -70,6 +70,13 @@ jobs:
         env:
           PERCY_TOKEN: ${{ secrets.PERCY_TOKEN }}
 
+      - name: Run Lighthouse CI
+        run: |
+            pnpm install -g @lhci/cli@0.15.x
+            lhci autorun
+        env:
+            LHCI_GITHUB_APP_TOKEN: ${{ secrets.LHCI_GITHUB_APP_TOKEN }}
+
       - name: Set up QEMU
         uses: docker/setup-qemu-action@v2
 
