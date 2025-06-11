@@ -43,8 +43,6 @@ kramdown:
   transliterated_header_ids: true
   footnote_backlink:         "&#8617;&#xfe0e;"
   math_engine: katex
-  math_engine_opts:
-    display_mode: mathml
 
 
 #
