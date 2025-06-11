@@ -12,8 +12,8 @@ default:
   web:          https://sparanoid.com/
   twitter:      tunghsiao
 
-tester:
-  name:         Tester
-  email:        test@test.com
-  web:          https://example.com/
-  twitter:      tester
+laundryservices:
+  name:         Eddie Rodriguez
+  email:        hi@laundryservic.es
+  web:          https://laundryservic.es
+  twitter:      no-twitter

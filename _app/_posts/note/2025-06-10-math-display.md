@@ -3,7 +3,7 @@ layout: post
 title: Math Display
 category: note
 tags: curtana
-author: "laundryservices"
+author: laundryservices
 ---
 
 Math display demo, powered by $$\KaTeX$$.
