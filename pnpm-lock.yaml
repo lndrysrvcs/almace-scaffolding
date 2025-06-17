@@ -101,7 +101,7 @@ importers:
         version: 1.1.5
       grunt-terser:
         specifier: 2.0.0
-        version: 2.0.0(grunt@1.6.1)(terser@5.42.0)
+        version: 2.0.0(grunt@1.6.1)(terser@5.43.0)
       grunt-text-replace:
         specifier: 0.4.0
         version: 0.4.0
@@ -121,8 +121,8 @@ importers:
         specifier: 1.89.2
         version: 1.89.2
       terser:
-        specifier: 5.42.0
-        version: 5.42.0
+        specifier: 5.43.0
+        version: 5.43.0
 
 packages:
 
@@ -2621,8 +2621,8 @@ packages:
     resolution: {integrity: sha512-7dPUZQGy/+m3/wjVz3ZW5dobSoD/02NxJpoXUX0WIyjfVS3l0c+b/+9phIDFA7FHzkYtwtMFgeGZ/Y8jVTeqQQ==}
     engines: {node: '>=4'}
 
-  terser@5.42.0:
-    resolution: {integrity: sha512-UYCvU9YQW2f/Vwl+P0GfhxJxbUGLwd+5QrrGgLajzWAtC/23AX0vcise32kkP7Eu0Wu9VlzzHAXkLObgjQfFlQ==}
+  terser@5.43.0:
+    resolution: {integrity: sha512-CqNNxKSGKSZCunSvwKLTs8u8sGGlp27sxNZ4quGh0QeNuyHM0JSEM/clM9Mf4zUp6J+tO2gUXhgXT2YMMkwfKQ==}
     engines: {node: '>=10'}
     hasBin: true
 
@@ -4321,10 +4321,10 @@ snapshots:
       - canvas
       - utf-8-validate
 
-  grunt-terser@2.0.0(grunt@1.6.1)(terser@5.42.0):
+  grunt-terser@2.0.0(grunt@1.6.1)(terser@5.43.0):
     dependencies:
       grunt: 1.6.1
-      terser: 5.42.0
+      terser: 5.43.0
 
   grunt-text-replace@0.4.0: {}
 
@@ -5664,7 +5664,7 @@ snapshots:
     dependencies:
       execa: 0.7.0
 
-  terser@5.42.0:
+  terser@5.43.0:
     dependencies:
       '@jridgewell/source-map': 0.3.6
       acorn: 8.15.0
