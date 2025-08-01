@@ -528,7 +528,7 @@ module.exports = (grunt) ->
     gitclone:
       amsf__core__add_remote:
         options:
-          repository: "https://github.com/sparanoid/almace-scaffolding.git"
+          repository: "https://github.com/lndrysrvcs/almace-scaffolding.git"
           branch: "<%= amsf.branch %>"
           directory: "<%= amsf.core %>"
 

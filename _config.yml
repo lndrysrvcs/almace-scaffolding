@@ -42,6 +42,8 @@ kramdown:
     css_class:               "highlight"
   transliterated_header_ids: true
   footnote_backlink:         "&#8617;&#xfe0e;"
+  math_engine: katex
+
 
 #
 # Jekyll plugins
@@ -99,7 +101,7 @@ description:    Super-fast Jekyll framework
 # `/my-project`, without trailing slash.
 #
 # Default:      ""
-baseurl:        /lab/amsf
+baseurl:        ""
 
 # Flatten base
 #
