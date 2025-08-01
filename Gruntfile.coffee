@@ -377,7 +377,7 @@ module.exports = (grunt) ->
         command: [
           "bundle update"
           "bundle install"
-          "yarn install"
+          "pnpm install"
         ].join("&&")
 
       amsf__theme__to_app:
@@ -528,7 +528,7 @@ module.exports = (grunt) ->
     gitclone:
       amsf__core__add_remote:
         options:
-          repository: "https://github.com/sparanoid/almace-scaffolding.git"
+          repository: "https://github.com/lndrysrvcs/almace-scaffolding.git"
           branch: "<%= amsf.branch %>"
           directory: "<%= amsf.core %>"
 
@@ -612,7 +612,6 @@ module.exports = (grunt) ->
         updateConfigs: ["config.pkg"]
         commitMessage: "chore: release v%VERSION%"
         commitFiles: ["-a"]
-        gitCommitOptions: "-S"
         tagMessage: "chore: create tag %VERSION%"
         push: false
 

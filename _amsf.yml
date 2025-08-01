@@ -3,8 +3,8 @@
 #
 
 # AMSF version
-version:        2.0.24
+version:        2.0.25
 
 # Current theme
 amsf_theme:     curtana
-amsf_theme_url: https://github.com/amsf/amsf-curtana
+amsf_theme_url: https://github.com/lndrysrvcs/amsf-curtana

@@ -1,3 +1,33 @@
+<a name="2.0.25"></a>
+## [2.0.25](https://github.com/lndrysrvcs/almace-scaffolding/compare/v2.0.24...v2.0.25) (2025-08-01)
+
+
+### Bug Fixes
+
+* add csv and logger to satisfy cloudflare deps ([d6946f8](https://github.com/lndrysrvcs/almace-scaffolding/commit/d6946f8))
+* bigdecimal to satisfy cloudflare deps ([b8955f7](https://github.com/lndrysrvcs/almace-scaffolding/commit/b8955f7))
+* change baseurl for deployment ([19ecb33](https://github.com/lndrysrvcs/almace-scaffolding/commit/19ecb33))
+* CI error ([b990c3a](https://github.com/lndrysrvcs/almace-scaffolding/commit/b990c3a))
+* CI yaml syntax error ([e5df6c6](https://github.com/lndrysrvcs/almace-scaffolding/commit/e5df6c6))
+* fix cloudflare pages build ([24012b6](https://github.com/lndrysrvcs/almace-scaffolding/commit/24012b6))
+* merge conflicts ([865d3f2](https://github.com/lndrysrvcs/almace-scaffolding/commit/865d3f2))
+* update cloudflare pages deploy info ([6f198d9](https://github.com/lndrysrvcs/almace-scaffolding/commit/6f198d9))
+* update correct url on percy badge ([230e877](https://github.com/lndrysrvcs/almace-scaffolding/commit/230e877))
+* **deps:** update dependency [@percy](https://github.com/percy)/cli to v1.22.0 ([b4c394b](https://github.com/lndrysrvcs/almace-scaffolding/commit/b4c394b))
+* **deps:** update dependency [@percy](https://github.com/percy)/cli to v1.24.0 ([fa684cd](https://github.com/lndrysrvcs/almace-scaffolding/commit/fa684cd))
+* **deps:** update dependency [@percy](https://github.com/percy)/cli to v1.26.3 ([59e0faa](https://github.com/lndrysrvcs/almace-scaffolding/commit/59e0faa))
+
+
+### Features
+
+* **ci:** add lighthouse ci ([d89e403](https://github.com/lndrysrvcs/almace-scaffolding/commit/d89e403))
+* **ci:** add lighthouse ci ([559b65c](https://github.com/lndrysrvcs/almace-scaffolding/commit/559b65c))
+* add customizable author for each post ([11f749a](https://github.com/lndrysrvcs/almace-scaffolding/commit/11f749a))
+* add math display using KaTeX ([7aba6a2](https://github.com/lndrysrvcs/almace-scaffolding/commit/7aba6a2))
+* add math display using KaTeX ([5db8eb3](https://github.com/lndrysrvcs/almace-scaffolding/commit/5db8eb3))
+
+
+
 <a name="2.0.24"></a>
 ## [2.0.24](https://github.com/sparanoid/almace-scaffolding/compare/v2.0.23...v2.0.24) (2023-01-31)
 

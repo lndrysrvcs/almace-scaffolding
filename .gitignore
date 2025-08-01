@@ -26,6 +26,7 @@ nbproject
 
 # Folders to ignore
 node_modules
+.pnpm-store
 
 # AMSF specified
 .amsf-cache
