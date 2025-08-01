@@ -14,13 +14,13 @@ importers:
     devDependencies:
       '@lodder/grunt-postcss':
         specifier: 3.1.1
-        version: 3.1.1(grunt@1.6.1)(postcss@8.5.5)
+        version: 3.1.1(grunt@1.6.1)(postcss@8.5.6)
       '@lodder/time-grunt':
         specifier: 4.0.0
         version: 4.0.0
       autoprefixer:
         specifier: 10.4.21
-        version: 10.4.21(postcss@8.5.5)
+        version: 10.4.21(postcss@8.5.6)
       coffeelint:
         specifier: 2.1.0
         version: 2.1.0
@@ -115,8 +115,8 @@ importers:
         specifier: 0.10.0
         version: 0.10.0(grunt@1.6.1)
       postcss:
-        specifier: 8.5.5
-        version: 8.5.5
+        specifier: 8.5.6
+        version: 8.5.6
       sass:
         specifier: 1.89.2
         version: 1.89.2
@@ -2210,8 +2210,8 @@ packages:
     resolution: {integrity: sha512-yioayjNbHn6z1/Bywyb2Y4s3yvDAeXGOyxqD+LnVOinq6Mdmd++SW2wUNVzavyyHxd6+DxzWGIuosg6P1Rj8uA==}
     engines: {node: '>=6.0.0'}
 
-  postcss@8.5.5:
-    resolution: {integrity: sha512-d/jtm+rdNT8tpXuHY5MMtcbJFBkhXE6593XVR9UoGCH8jSFGci7jGvMGH5RYd5PBJW+00NZQt6gf7CbagJCrhg==}
+  postcss@8.5.6:
+    resolution: {integrity: sha512-3Ybi1tAuwAP9s0r1UQ2J4n5Y0G05bJkpUIO0/bI9MhwmD70S5aTWbXGBwxHrelT+XM1k6dM0pk+SwNkpTRN7Pg==}
     engines: {node: ^10 || ^12 || >=14}
 
   prelude-ls@1.1.2:
@@ -2953,13 +2953,13 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.0
 
-  '@lodder/grunt-postcss@3.1.1(grunt@1.6.1)(postcss@8.5.5)':
+  '@lodder/grunt-postcss@3.1.1(grunt@1.6.1)(postcss@8.5.6)':
     dependencies:
       diff: 5.0.0
       grunt: 1.6.1
       maxmin: 3.0.0
       picocolors: 1.0.0
-      postcss: 8.5.5
+      postcss: 8.5.6
 
   '@lodder/time-grunt@4.0.0':
     dependencies:
@@ -3335,14 +3335,14 @@ snapshots:
 
   asynckit@0.4.0: {}
 
-  autoprefixer@10.4.21(postcss@8.5.5):
+  autoprefixer@10.4.21(postcss@8.5.6):
     dependencies:
       browserslist: 4.25.0
       caniuse-lite: 1.0.30001721
       fraction.js: 4.3.7
       normalize-range: 0.1.2
       picocolors: 1.1.1
-      postcss: 8.5.5
+      postcss: 8.5.6
       postcss-value-parser: 4.2.0
 
   aws-sign2@0.7.0: {}
@@ -5250,7 +5250,7 @@ snapshots:
       picocolors: 0.2.1
       source-map: 0.6.1
 
-  postcss@8.5.5:
+  postcss@8.5.6:
     dependencies:
       nanoid: 3.3.11
       picocolors: 1.1.1
