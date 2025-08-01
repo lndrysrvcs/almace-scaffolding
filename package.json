@@ -10,10 +10,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sparanoid/almace-scaffolding.git"
+    "url": "git+https://github.com/lndrysrvcs/almace-scaffolding.git"
   },
   "bugs": {
-    "url": "https://github.com/sparanoid/almace-scaffolding/issues"
+    "url": "https://github.com/lndrysrvcs/almace-scaffolding/issues"
   },
   "license": "MIT",
   "keywords": [
