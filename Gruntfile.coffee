@@ -612,7 +612,6 @@ module.exports = (grunt) ->
         updateConfigs: ["config.pkg"]
         commitMessage: "chore: release v%VERSION%"
         commitFiles: ["-a"]
-        gitCommitOptions: "-S"
         tagMessage: "chore: create tag %VERSION%"
         push: false
 
