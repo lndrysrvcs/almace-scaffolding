@@ -88,8 +88,8 @@ importers:
         specifier: 1.3.0
         version: 1.3.0(grunt@1.6.1)
       grunt-sass:
-        specifier: 4.0.0
-        version: 4.0.0(grunt@1.6.1)
+        specifier: 4.0.1
+        version: 4.0.1(grunt@1.6.1)
       grunt-service-worker:
         specifier: 1.0.3
         version: 1.0.3(grunt@1.6.1)
@@ -1319,8 +1319,8 @@ packages:
     peerDependencies:
       grunt: '>=0.4.1'
 
-  grunt-sass@4.0.0:
-    resolution: {integrity: sha512-J9JvhVByJaIBjqPvFs/bOrRb9Wa2wVeSM5bRzjD8YiwuEi03tdIPI9OXuygq35z/eTurcO4yxsF5MU8nHdH11w==}
+  grunt-sass@4.0.1:
+    resolution: {integrity: sha512-tEbIuqieBNxrLpWcnfBnTCTaRBvs+paHitpiDQjB87lhVLxc/TaT3zbpAPdCX2byf8Do9I5eHpO1YuN50BLOhQ==}
     engines: {node: '>=18'}
     peerDependencies:
       grunt: '>=1'
@@ -4297,7 +4297,7 @@ snapshots:
       grunt: 1.6.1
       rimraf: 2.7.1
 
-  grunt-sass@4.0.0(grunt@1.6.1):
+  grunt-sass@4.0.1(grunt@1.6.1):
     dependencies:
       grunt: 1.6.1
 
