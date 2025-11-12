@@ -7,6 +7,7 @@
 `AMSF`, a.k.a. **Almace Scaffolding**, a super-fast Jekyll framework fighting against the website obesity. It supports LiveReload, Sass, HTML minification, inlined stylesheets and more.
 
 -----
+[![Lighthouse testing results](https://raw.githubusercontent.com/lndrysrvcs/almace-scaffolding/refs/heads/master/lighthouse_results/desktop/pagespeed.svg)]()
 
 ## [Getting Started](https://sparanoid.com/lab/amsf/getting-started.html)
 
