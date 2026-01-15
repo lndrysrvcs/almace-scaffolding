@@ -101,7 +101,7 @@ importers:
         version: 1.1.5
       grunt-terser:
         specifier: 2.0.0
-        version: 2.0.0(grunt@1.6.1)(terser@5.44.1)
+        version: 2.0.0(grunt@1.6.1)(terser@5.45.0)
       grunt-text-replace:
         specifier: 0.4.0
         version: 0.4.0
@@ -121,8 +121,8 @@ importers:
         specifier: 1.94.2
         version: 1.94.2
       terser:
-        specifier: 5.44.1
-        version: 5.44.1
+        specifier: 5.45.0
+        version: 5.45.0
 
 packages:
 
@@ -2299,6 +2299,7 @@ packages:
   raw-body@1.1.7:
     resolution: {integrity: sha512-WmJJU2e9Y6M5UzTOkHaM7xJGAPQD8PNzx3bAd2+uhZAim6wDk6dAZxPVYLF67XhbR4hmKGh33Lpmh4XWrCH5Mg==}
     engines: {node: '>= 0.8.0'}
+    deprecated: No longer maintained. Please upgrade to a stable version.
 
   rc@1.2.8:
     resolution: {integrity: sha512-y3bGgqKj3QBdxLbLkomlohkvsA8gdAiUQlSBJnBhfn+BPxg4bc62d8TcBW15wavDfgexCgccckhcZvywyQYPOw==}
@@ -2617,8 +2618,8 @@ packages:
     resolution: {integrity: sha512-7dPUZQGy/+m3/wjVz3ZW5dobSoD/02NxJpoXUX0WIyjfVS3l0c+b/+9phIDFA7FHzkYtwtMFgeGZ/Y8jVTeqQQ==}
     engines: {node: '>=4'}
 
-  terser@5.44.1:
-    resolution: {integrity: sha512-t/R3R/n0MSwnnazuPpPNVO60LX0SKL45pyl9YlvxIdkH0Of7D5qM2EVe+yASRIlY5pZ73nclYJfNANGWPwFDZw==}
+  terser@5.45.0:
+    resolution: {integrity: sha512-hQ9c+JZEnMug8eqzuU48sCeq95f00lLDAaJ5gWhRkFXsfy3+SUkZXiF/Z66ZO6EomSmgqXnkhVrWXKaQ8K41Ug==}
     engines: {node: '>=10'}
     hasBin: true
 
@@ -2816,6 +2817,7 @@ packages:
 
   whatwg-encoding@1.0.5:
     resolution: {integrity: sha512-b5lim54JOPN9HtzvK9HFXvBma/rnfFeqsic0hSpjtDbVxR3dJKLc+KB4V6GgiGOvl7CY/KNh8rxSo9DKQrnUEw==}
+    deprecated: Use @exodus/bytes instead for a more spec-conformant and faster implementation
 
   whatwg-mimetype@2.3.0:
     resolution: {integrity: sha512-M4yMwr6mAnQz76TbJm914+gPpB/nCwvZbJU28cUD6dR004SAxDLOOSUaB1JDRqLtaOV/vi0IC5lEAGFgrjGv/g==}
@@ -4329,10 +4331,10 @@ snapshots:
       - canvas
       - utf-8-validate
 
-  grunt-terser@2.0.0(grunt@1.6.1)(terser@5.44.1):
+  grunt-terser@2.0.0(grunt@1.6.1)(terser@5.45.0):
     dependencies:
       grunt: 1.6.1
-      terser: 5.44.1
+      terser: 5.45.0
 
   grunt-text-replace@0.4.0: {}
 
@@ -5665,7 +5667,7 @@ snapshots:
     dependencies:
       execa: 0.7.0
 
-  terser@5.44.1:
+  terser@5.45.0:
     dependencies:
       '@jridgewell/source-map': 0.3.11
       acorn: 8.15.0
