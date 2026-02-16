@@ -88,8 +88,8 @@ importers:
         specifier: 1.3.0
         version: 1.3.0(grunt@1.6.1)
       grunt-sass:
-        specifier: 4.0.1
-        version: 4.0.1(grunt@1.6.1)
+        specifier: 4.1.0
+        version: 4.1.0(grunt@1.6.1)
       grunt-service-worker:
         specifier: 1.0.3
         version: 1.0.3(grunt@1.6.1)
@@ -1321,8 +1321,8 @@ packages:
     peerDependencies:
       grunt: '>=0.4.1'
 
-  grunt-sass@4.0.1:
-    resolution: {integrity: sha512-tEbIuqieBNxrLpWcnfBnTCTaRBvs+paHitpiDQjB87lhVLxc/TaT3zbpAPdCX2byf8Do9I5eHpO1YuN50BLOhQ==}
+  grunt-sass@4.1.0:
+    resolution: {integrity: sha512-4RsrEDGn4C/UpiTFYxO7so2WUUXQjokZWsZoKihFKGFQYR+zj4fop7Pz8c2aX1HPk0u2DwtsQDjucW61vbSZew==}
     engines: {node: '>=18'}
     peerDependencies:
       grunt: '>=1'
@@ -2299,6 +2299,7 @@ packages:
   raw-body@1.1.7:
     resolution: {integrity: sha512-WmJJU2e9Y6M5UzTOkHaM7xJGAPQD8PNzx3bAd2+uhZAim6wDk6dAZxPVYLF67XhbR4hmKGh33Lpmh4XWrCH5Mg==}
     engines: {node: '>= 0.8.0'}
+    deprecated: No longer maintained. Please upgrade to a stable version.
 
   rc@1.2.8:
     resolution: {integrity: sha512-y3bGgqKj3QBdxLbLkomlohkvsA8gdAiUQlSBJnBhfn+BPxg4bc62d8TcBW15wavDfgexCgccckhcZvywyQYPOw==}
@@ -2816,6 +2817,7 @@ packages:
 
   whatwg-encoding@1.0.5:
     resolution: {integrity: sha512-b5lim54JOPN9HtzvK9HFXvBma/rnfFeqsic0hSpjtDbVxR3dJKLc+KB4V6GgiGOvl7CY/KNh8rxSo9DKQrnUEw==}
+    deprecated: Use @exodus/bytes instead for a more spec-conformant and faster implementation
 
   whatwg-mimetype@2.3.0:
     resolution: {integrity: sha512-M4yMwr6mAnQz76TbJm914+gPpB/nCwvZbJU28cUD6dR004SAxDLOOSUaB1JDRqLtaOV/vi0IC5lEAGFgrjGv/g==}
@@ -4305,7 +4307,7 @@ snapshots:
       grunt: 1.6.1
       rimraf: 2.7.1
 
-  grunt-sass@4.0.1(grunt@1.6.1):
+  grunt-sass@4.1.0(grunt@1.6.1):
     dependencies:
       grunt: 1.6.1
 
